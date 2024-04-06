@@ -125,7 +125,7 @@
 }
 
 .navbar {
-    height: 100px;
+    height: 70px;
     border-bottom: 1px solid rgba(255, 255, 255, .1);
 }
 
@@ -240,7 +240,7 @@
 
 .page-header {
     position: relative;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/cart-page-header-img.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/strawberry-image.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -30,38 +30,59 @@
 </head>
 
 <body>
-    <!-- Navbar start -->
     <div class="container-fluid shadow fixed-top">
         <div class="container px-0 ">
             <nav class="navbar navbar-light navbar-expand-xl ">
                 <div class="rounded">
                     <img src="img/logo-mami-removebg-preview.png" class="img-fluid rounded"
-                        style="width: 80px; height: 80px;" alt="">
+                        style="width: 60px; height: 60px;" alt="">
                 </div>
                 <a href="index.html" class="navbar-brand">
-                    <h1 class="text-dark">Mami Fresh</h1>
+                    <h2 class="text-dark">&nbsp; Mami Fresh</h2>
                 </a>
+                <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars text-dark"></span>
+                </button>
+                <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="lookup-product.html" class="nav-item nav-link">Product</a>
+                        <a href="testimonial.html" class="nav-item nav-link">About</a>
+                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                        <a href="#testimoni" class="nav-item nav-link">Testimonial</a>
+                        <div class="nav-item dropdown" hidden>
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Contact</a>
+                            <div class="dropdown-menu m-0 bg-secondary rounded-0">
+                                <a href="cart.html" class="dropdown-item">Cart</a>
+                                <a href="chackout.html" class="dropdown-item">Chackout</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="404.html" class="dropdown-item">404 Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
         </div>
-        </nav>
     </div>
-    </div>
+    <!-- Navbar End -->
 
     <!-- Fruits Shop Start-->
-
-
     <div class="container-fluid fruite py-5 mt-5">
         <div class="container py-5">
             <div class="tab-class text-center">
                 <div class="row g-4">
-                    <div class="col-lg-12 text-start mb-2">
-                        <h1>Our Organic Products
-                            <hr class="bg-danger">
-                        </h1>
+                    <div class="col-lg-12 text-start mb-2 text-center">
+                        <h1 class="display-6">Our Organic Products</h1>
+                        <span>
+                            <hr>
+                        </span>
                     </div>
-                    <div class="col-lg-8 text-end">
+                    <div class="col-lg-12 d-flex justify-content-center">
                         <ul class="nav nav-pills text-center mb-5">
-                            <li class="nav-item">
-                                <a class="d-flex m-2 py-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-1">
+                            <!-- <li class="nav-item">
+                                <a class="d-flex m-2 py-2 bg-light rounded-pill hover" data-bs-toggle="pill"
+                                    href="#tab-1">
                                     <span class="text-dark" style="width: 130px;">Fresh Fruits</span>
                                 </a>
                             </li>
@@ -69,7 +90,18 @@
                                 <a class="d-flex py-2 m-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-2">
                                     <span class="text-dark" style="width: 130px;">Frozen Fruits</span>
                                 </a>
+                            </li> -->
+                            <li class="nav-item mx-3">
+                                <a class="btn btn-outline-primary shadow" data-bs-toggle="pill" href="#tab-2">
+                                    <span class="text-dark" style="width: 130px;">Fresh Fruits</span>
+                                </a>
                             </li>
+                            <li class="nav-item">
+                                <a class="btn btn-outline-primary shadow" data-bs-toggle="pill" href="#tab-2">
+                                    <span class="text-dark" style="width: 130px;">Frozen Fruits</span>
+                                </a>
+                            </li>
+
                             <!-- <li class="nav-item">
                                 <a class="d-flex m-2 py-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-3">
                                     <span class="text-dark" style="width: 130px;">Fruits</span>
@@ -84,8 +116,8 @@
                                 <a class="d-flex m-2 py-2 bg-light rounded-pill" data-bs-toggle="pill" href="#tab-5">
                                     <span class="text-dark" style="width: 130px;">Meat</span>
                                 </a>
-                            </li>
-                        </ul> -->
+                            </li> -->
+                        </ul>
                     </div>
                 </div>
                 <div class="tab-content">
@@ -108,11 +140,11 @@
                                                 <a href="https://wa.me/c/628113847788" target="_blank">
                                                     <div class="text-white bg-secondary px-3 py-1 rounded position-absolute"
                                                         style="bottom: 10px; left: 10px;">
-                                                        <i class="fa fa-shopping-bag"></i>
+                                                        <i class="fa fa-plus"></i>
                                                     </div>
                                                 </a>
                                                 <div class="text-end flex-lg-wrap border-top border-secondary">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">Rp.50.000 / kg</p>
+                                                    <!-- <p class="text-dark fs-5 fw-bold mb-0">Rp.50.000 / kg</p> -->
                                                     <!-- <a href="#"
                                                         class="btn border border-secondary rounded-pill px-3 text-primary"><i
                                                             class="fa fa-shopping-bag me-2 text-primary"></i> Add to
@@ -141,7 +173,7 @@
                                                 </a>
 
                                                 <div class="text-end flex-lg-wrap border-top border-secondary">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">Rp.45.000 / kg</p>
+                                                    <!-- <p class="text-dark fs-5 fw-bold mb-0">Rp.45.000 / kg</p> -->
                                                     <!-- <a href="#"
                                                         class="btn border border-secondary rounded-pill px-3 text-primary"><i
                                                             class="fa fa-shopping-bag me-2 text-primary"></i> Add to
@@ -169,7 +201,7 @@
                                                     </div>
                                                 </a>
                                                 <div class="text-end flex-lg-wrap border-top border-secondary">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">Rp.35.000 / kg</p>
+                                                    <!-- <p class="text-dark fs-5 fw-bold mb-0">Rp.35.000 / kg</p> -->
                                                     <!-- <a href="#"
                                                         class="btn border border-secondary rounded-pill px-3 text-primary"><i
                                                             class="fa fa-shopping-bag me-2 text-primary"></i> Add to
@@ -197,7 +229,7 @@
                                                     </div>
                                                 </a>
                                                 <div class="text-end flex-lg-wrap border-top border-secondary">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">Rp.25.000 / kg</p>
+                                                    <!-- <p class="text-dark fs-5 fw-bold mb-0">Rp.25.000 / kg</p> -->
                                                     <!-- <a href="#"
                                                         class="btn border border-secondary rounded-pill px-3 text-primary"><i
                                                             class="fa fa-shopping-bag me-2 text-primary"></i> Add to
@@ -225,7 +257,7 @@
                                                     </div>
                                                 </a>
                                                 <div class="text-end flex-lg-wrap border-top border-secondary">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">Rp.20.000 / kg</p>
+                                                    <!-- <p class="text-dark fs-5 fw-bold mb-0">Rp.20.000 / kg</p> -->
                                                     <!-- <a href="#"
                                                         class="btn border border-secondary rounded-pill px-3 text-primary"><i
                                                             class="fa fa-shopping-bag me-2 text-primary"></i> Add to
@@ -253,7 +285,7 @@
                                                     </div>
                                                 </a>
                                                 <div class="text-end flex-lg-wrap border-top border-secondary">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">Rp.47.000 / kg</p>
+                                                    <!-- <p class="text-dark fs-5 fw-bold mb-0">Rp.47.000 / kg</p> -->
                                                     <!-- <a href="#"
                                                         class="btn border border-secondary rounded-pill px-3 text-primary"><i
                                                             class="fa fa-shopping-bag me-2 text-primary"></i> Add to
@@ -281,7 +313,7 @@
                                                     </div>
                                                 </a>
                                                 <div class="text-end flex-lg-wrap border-top border-secondary">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">Rp.39.000 / kg</p>
+                                                    <!-- <p class="text-dark fs-5 fw-bold mb-0">Rp.39.000 / kg</p> -->
                                                     <!-- <a href="#"
                                                         class="btn border border-secondary rounded-pill px-3 text-primary"><i
                                                             class="fa fa-shopping-bag me-2 text-primary"></i> Add to
@@ -309,7 +341,7 @@
                                                     </div>
                                                 </a>
                                                 <div class="text-end flex-lg-wrap border-top border-secondary">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">Rp.27.000 / kg</p>
+                                                    <!-- <p class="text-dark fs-5 fw-bold mb-0">Rp.27.000 / kg</p> -->
                                                     <!-- <a href="#"
                                                         class="btn border border-secondary rounded-pill px-3 text-primary"><i
                                                             class="fa fa-shopping-bag me-2 text-primary"></i> Add to
@@ -345,7 +377,7 @@
                                                     </div>
                                                 </a>
                                                 <div class="text-end flex-lg-wrap border-top border-secondary">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">Rp.50.000 / kg</p>
+                                                    <!-- <p class="text-dark fs-5 fw-bold mb-0">Rp.50.000 / kg</p> -->
                                                     <!-- <a href="#"
                                                         class="btn border border-secondary rounded-pill px-3 text-primary"><i
                                                             class="fa fa-shopping-bag me-2 text-primary"></i> Add to
@@ -374,7 +406,7 @@
                                                 </a>
 
                                                 <div class="text-end flex-lg-wrap border-top border-secondary">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">Rp.45.000 / kg</p>
+                                                    <!-- <p class="text-dark fs-5 fw-bold mb-0">Rp.45.000 / kg</p> -->
                                                     <!-- <a href="#"
                                                         class="btn border border-secondary rounded-pill px-3 text-primary"><i
                                                             class="fa fa-shopping-bag me-2 text-primary"></i> Add to
@@ -402,7 +434,7 @@
                                                     </div>
                                                 </a>
                                                 <div class="text-end flex-lg-wrap border-top border-secondary">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">Rp.35.000 / kg</p>
+                                                    <!-- <p class="text-dark fs-5 fw-bold mb-0">Rp.35.000 / kg</p> -->
                                                     <!-- <a href="#"
                                                         class="btn border border-secondary rounded-pill px-3 text-primary"><i
                                                             class="fa fa-shopping-bag me-2 text-primary"></i> Add to
@@ -430,7 +462,7 @@
                                                     </div>
                                                 </a>
                                                 <div class="text-end flex-lg-wrap border-top border-secondary">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">Rp.25.000 / kg</p>
+                                                    <!-- <p class="text-dark fs-5 fw-bold mb-0">Rp.25.000 / kg</p> -->
                                                     <!-- <a href="#"
                                                         class="btn border border-secondary rounded-pill px-3 text-primary"><i
                                                             class="fa fa-shopping-bag me-2 text-primary"></i> Add to
@@ -458,7 +490,7 @@
                                                     </div>
                                                 </a>
                                                 <div class="text-end flex-lg-wrap border-top border-secondary">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">Rp.20.000 / kg</p>
+                                                    <!-- <p class="text-dark fs-5 fw-bold mb-0">Rp.20.000 / kg</p> -->
                                                     <!-- <a href="#"
                                                         class="btn border border-secondary rounded-pill px-3 text-primary"><i
                                                             class="fa fa-shopping-bag me-2 text-primary"></i> Add to
@@ -486,7 +518,7 @@
                                                     </div>
                                                 </a>
                                                 <div class="text-end flex-lg-wrap border-top border-secondary">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">Rp.47.000 / kg</p>
+                                                    <!-- <p class="text-dark fs-5 fw-bold mb-0">Rp.47.000 / kg</p> -->
                                                     <!-- <a href="#"
                                                         class="btn border border-secondary rounded-pill px-3 text-primary"><i
                                                             class="fa fa-shopping-bag me-2 text-primary"></i> Add to
@@ -514,7 +546,7 @@
                                                     </div>
                                                 </a>
                                                 <div class="text-end flex-lg-wrap border-top border-secondary">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">Rp.39.000 / kg</p>
+                                                    <!-- <p class="text-dark fs-5 fw-bold mb-0">Rp.39.000 / kg</p> -->
                                                     <!-- <a href="#"
                                                         class="btn border border-secondary rounded-pill px-3 text-primary"><i
                                                             class="fa fa-shopping-bag me-2 text-primary"></i> Add to
@@ -542,7 +574,7 @@
                                                     </div>
                                                 </a>
                                                 <div class="text-end flex-lg-wrap border-top border-secondary">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">Rp.27.000 / kg</p>
+                                                    <!-- <p class="text-dark fs-5 fw-bold mb-0">Rp.27.000 / kg</p> -->
                                                     <!-- <a href="#"
                                                         class="btn border border-secondary rounded-pill px-3 text-primary"><i
                                                             class="fa fa-shopping-bag me-2 text-primary"></i> Add to
@@ -578,7 +610,7 @@
                                                     </div>
                                                 </a>
                                                 <div class="text-end flex-lg-wrap border-top border-secondary">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">Rp.17.000 / kg</p>
+                                                    <!-- <p class="text-dark fs-5 fw-bold mb-0">Rp.17.000 / kg</p> -->
                                                     <!-- <a href="#"
                                                         class="btn border border-secondary rounded-pill px-3 text-primary"><i
                                                             class="fa fa-shopping-bag me-2 text-primary"></i> Add to
